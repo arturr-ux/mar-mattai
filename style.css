@@ -11,8 +11,17 @@ body {
     line-height: 1.5;
 	font-family: 'Poppins', sans-serif;
     box-sizing: inherit;
+	width: 100%;
+    padding: 20px;
 }
 
+@media only screen and (max-width: 768px) {
+    /* Apply styles for tablets and smaller screens */
+    .container {
+        width: 100%;
+        padding: 10px;
+    }
+}
 
 /* Navbar Styling */
 #navbar {
