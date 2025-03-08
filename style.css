@@ -13,6 +13,8 @@ body {
     box-sizing: inherit;
 	width: 100%;
     padding: 20px;
+	    display: inline-block;
+
 }
 
 @media only screen and (max-width: 768px) {
@@ -289,7 +291,8 @@ ul{
 	text-decoration: none;
 	font-weight: 300;
 	color: #bbbbbb;
-	display: block;
+	    display: inline-block;
+
  }
 .footer-col h4{
 	font-size: 18px;
@@ -331,6 +334,8 @@ ul{
 display: flex;
 justify-content: center; 
 align-items: center;
+	    display: inline-block;
+
 }
 .footer-col .By a{
     width:fit-content;
@@ -339,7 +344,7 @@ align-items: center;
 border-radius:calc();
 	color: #ffffff;
 	transition: all 0.5s ease;
-    display:flex;
+ display: inline-block;
     flex-wrap: wrap;
     gap: 10px;
 }
