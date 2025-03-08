@@ -76,6 +76,7 @@ a.light-mode {
 button.toggle-btn {
     background-color: #D7C2B2; /* Beige color */
     color: white;
+    display: inline-block;
     padding: 10px 15px;
     border: none;
     cursor: pointer;
@@ -283,7 +284,7 @@ ul{
    padding: 0 15px;
 }
 .footer-col p{
-    width:200%;
+    width:100%;
     padding: 0 15px;
     font-size: 15px;
 	text-transform: capitalize;
@@ -330,7 +331,7 @@ ul{
 	padding-left: 8px;
 }
 .By{
-    width:150%;
+    width:100%;
 display: flex;
 justify-content: center; 
 align-items: center;
